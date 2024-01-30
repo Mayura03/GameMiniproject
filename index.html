@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+
+</head>
+<!-- <body style="background-color:powderblue;"> -->
+
+<center><h1>ITS TIME TO LOGIN!</h1></center><br><br>
+<div class="login-container">
+<form method="post" action="IndexServlet">
+<center>
+   <p class="b">Your Name:</p>
+   <input name="name" id="ip4" required><br>
+
+   <p>Your Password:</p>
+   <input name="password" type=password id="ip4"required><br>
+
+   <p>Confirm name and password</p>
+   <button type="submit" class="submit">Submit</button>
+</center>
+</form>
+</div><br>
+
+<center><p class="c">If you don't have an account click here to register</p></center>
+<center><a href="register.html" class="click">CLICK HERE</a></center>
+
+
+
+
+<style>
+body {
+  /* background-image: url('https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+  background-image:url('https://images.unsplash.com/photo-1513077202514-c511b41bd4c7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.login-container {
+    margin-top: 1px;
+    margin-left:900px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* margin-left:auto; */
+  }
+h1{
+margin-top: 60px;
+margin-left:670px;
+color:black;
+font-family:Georgia, serif;
+font-weight:700;
+
+}
+ p{
+ 
+   color:black;
+   font-size:25px;
+   font-family:Georgia, serif;
+   font-weight:300;
+   
+ }
+ a{
+   color:blackk;;
+ }
+  button {
+   margin-bottom: 15px; /* Adjust the value to control the space */
+    border-radius: 15px 50px 30px;
+     border: #F0E7F2;; 
+    padding: 5px; 
+    width: 100px;
+    height: 30px;
+    cursor:pointer;
+    background-color:#d9d2e9;  
+ }
+ button:hover{
+  /* opacity:100; */
+  background-color:#bfb1e7;
+ }
+ .b{
+   margin-top: 10px;
+ }
+ 
+ #ip4 {
+    border-radius: 15px 50px 30px;
+    border: 2px #F0E7F2;; 
+    padding: 12px; 
+    width: 200px;
+    height: 15px; 
+    background-color:#d9d2e9;
+}
+.submit {
+  font-size: medium;
+  text-align: center;
+}
+.click{
+  margin-left:660px;
+}
+.click:hover{
+  color:#00005c;
+  
+}
+.c{
+ margin-left:660px;
+}
+input{
+background: #F0E7F2;
+}
+ /* div{
+        margin-top:120px;                                                                                                  
+ } */
+ 
+ 
+</style>
+</body>
+</html>

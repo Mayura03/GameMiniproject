@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+
+</head>
+<body style="background-color:powderblue;">
+
+<center><h1>ITS TIME TO REGISTER!</h1></center>
+<!-- <marquee >Register soon to get the offer!</marquee> -->
+<div class="login">
+<form method="post" action="DemoServlet">
+<center><p>Your Name:</p>
+<input name="name" class="input" required></input><br>
+<center><p>Your mobile number:</p>
+<input name="number"class="input"required></input><br>
+<center><p>Your email:</p>
+<input name="email"class="input"required></input><br>
+
+<p>Your Password:</p>
+<input name="password" type=password class="input"required></input><br>
+<p>Confirm name and password</p>
+<a href="index.html" ><button type="submit" id="ip2" class="submit">Submit</button></a></center>
+</form>
+</div>
+
+</body>
+
+<style>
+body {
+  /* background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */ 
+  background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login{
+    margin-top: 100px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 1px;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+  }
+  h1{
+  margin-top:100px;
+  color:black;
+  font-family:Georgia, serif;
+  font-weight:700;
+  }
+  
+  .input{
+  height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: #b0a78a;
+    outline: none;
+  }
+  
+  p{
+ 
+   color:black;
+   font-size:20px;
+   font-family:Georgia, serif;
+   font-weight:250;
+ }
+#ip2:hover{
+  /* onopacity:100; */
+  background-color:#958d75;
+ }
+
+ #ip2 {
+    border-radius: 25px;
+    border:none;
+    padding: 6px; 
+    width: 100px;
+    height: 30px;
+    background: #b0a78a; 
+    cursor:pointer;   
+}
+
+.submit {
+  font-size: medium;
+  text-align: center;
+  
+}
+</style>
+
+</html>
